@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.shower{
+  background-image: url('./confetti.gif');
+}
+
+.container{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.yes{
+  background-color: #08ff29;
+}
+.no{
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
+}
